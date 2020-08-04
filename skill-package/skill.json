@@ -1,0 +1,37 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Enjoy a new image of our fascinating universe every day",
+          "examplePhrases": [
+            "Alexa open astropic",
+            "Alexa ask astropic for astronomy picture of the day",
+            "astronomy picture of the day"
+          ],
+          "name": "AstroPic",
+          "description": "Each day a different image or photograph of our fascinating universe is featured from one of the most popular websites at NASA, Astronomy Picture of the Day. ",
+          "smallIconUri": "https://alexaapodskill.s3.amazonaws.com/skillicon108.png",
+          "largeIconUri": "https://alexaapodskill.s3.amazonaws.com/skillicon.png"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:778227666473:function:ask-astropic-default-default-1596476924178"
+        },
+        "interfaces": [
+          {
+            "type": "ALEXA_PRESENTATION_APL"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
