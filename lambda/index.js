@@ -9,7 +9,7 @@ function httpGet() {
       var options = {
           host: 'api.nasa.gov',
           port: 443,
-          path: '/planetary/apod?api_key=7RoJitk70d09jJ0OcOH1JH9PGgE72a3sIX7Ouwnd',
+          path: '/planetary/apod?api_key=ACCESS_KEY',
           method: 'GET',
       };
       
